@@ -18,11 +18,10 @@ import java.sql.Statement;
  */
 public class MovieDVDShop {
 
-	/**
-	 * @param args the command line arguments
-	 */
+	
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
-           Connection myConnector = null;
+          /*
+            Connection myConnector = null;
            Statement statement = null;
            ResultSet resultSet = null;
            
@@ -36,7 +35,8 @@ public class MovieDVDShop {
            //lukker efter mig
            resultSet.close();
            statement.close();
-           myConnector.close();
+           myConnector.close();*/
+          Controller.runProgram();
 	}
 	
 }
